@@ -1,0 +1,92 @@
+/* 
+    Document   : smiley
+    Created on : 22 Nov, 2011, 1:31:56 PM
+    Author     : arjun
+    Description:
+        Smileys using CSS3
+*/
+
+.smiley{
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px solid;
+  -webkit-border-radius: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#999));    
+  -webkit-box-shadow: inset 0px -14px 14px rgba(0, 0, 0, .3),  0px 2px 20px rgba(0, 0, 0, .6);
+}
+
+.eye{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  -webkit-border-radius: 20px; 
+  position: absolute;
+  top: 65px;
+  background: #222;
+  -webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+}
+.eyel{
+  left: 40px;
+}
+.eyer{
+  right: 40px;
+}
+
+
+
+.lips{
+  width: 100px;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 140px;
+  border-bottom: 2px solid;
+  -wekit-border-radius: 0;
+
+}
+
+.tongue {
+  display: none;
+  height: 31px;
+  background: black;
+  width: 53px;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  top: 141px;
+  right: 55px;
+  -webkit-box-shadow: inset 0px 4px 10px rgba(255,255,255, 0.8);
+}
+
+
+.happy .lips,
+.wink .lips{
+  top: 100px;
+  border-top: none;
+  border-bottom: 2px solid;
+  -webkit-border-radius: 0 0 100px 100px;
+  height: 50px;
+}
+
+
+.sad .lips{
+  top: 140px;
+  border-bottom: none;
+  border-top: 2px solid;
+  -webkit-border-radius: 100px 100px 0 0;
+  height: 50px;
+}
+
+.wink .eyel{
+  height: 1px;
+  border : 2px solid;
+  top: 86px
+}
+
+.tongue-out .tongue {
+  display: block;
+}

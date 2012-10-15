@@ -72,7 +72,8 @@
 }
 
 
-.sad .lips{
+.sad .lips,
+.angry .lips{
   top: 73%;
   border-bottom: none;
   border-top: 2px solid;
@@ -93,4 +94,29 @@
   border-radius: 0 0 20% 20%;
   height: 24%;
   top: 46%;
+}
+
+
+.angry{}
+.angry .eye{
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
+}
+.angry .eyer{
+  width: 0;
+  height: 0;
+  border-top: 1.5em solid transparent;
+  border-right: 2em solid #000;
+  border-bottom: 1.5em solid transparent;
+  right: 25%;
+}
+.angry .eyel{
+  width: 0;
+  height: 0;
+  border-top: 1.5em solid transparent;
+  border-left: 2em solid #000;
+  border-bottom: 1.5em solid transparent;
+  left: 25%;
 }
